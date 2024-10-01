@@ -1,0 +1,78 @@
+body{
+    background-image: url('arkaplan.jpg');
+    background-repeat:repeat;
+    background-attachment:fixed;
+  }
+  .anabaslik{
+    color: #811313;
+    text-shadow: 2px 3px 4px #000000
+  }
+  .yazi{
+    padding:200px;
+    padding-top:50px;
+    
+  }
+  .baslik{
+    font-family: Brush Script MT, Lucida Handwriting, Cursive;
+    height:30px;
+    width:220px;
+    background-color:#f0758e;
+    color:white;  
+  }
+  
+  .baslik1{
+    font-family: Brush Script MT, Lucida Handwriting, Cursive;
+    height:30px;
+    width:260px;
+    background-color:#f0758e;
+    color:white;
+  }
+  
+  .baslik2{
+    font-family: Brush Script MT, Lucida Handwriting, Cursive;
+    height:30px;
+    width:320px;
+    background-color:#f0758e;
+    color:white;
+  }
+  
+  .baslik3{
+    font-family:  Lucida Handwriting, Cursive;
+    height:30px;
+    width:140px;
+    background-color:#f0758e;
+    color:white;
+  }
+  
+  .baslik4{
+    font-family: Brush Script MT, Lucida Handwriting, Cursive;
+    height:30px;
+    width:100px;
+    background-color:#f0758e;
+    color:white;
+  }
+  
+  .baslik5{
+    font-family: Brush Script MT, Lucida Handwriting, Cursive;
+    height:30px;
+    width:120px;
+    background-color:#f0758e;
+    color:white;
+  }
+  
+  h3.outset {
+    border-style: outset;
+    border-width:4px;
+  }
+  
+  .p {
+    margin-left: 80px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height:30%;
+  }

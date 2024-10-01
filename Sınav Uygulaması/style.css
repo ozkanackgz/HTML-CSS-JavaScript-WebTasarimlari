@@ -1,0 +1,38 @@
+html,body {
+    background-color:#b1bde2;
+    padding:100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right:100px;
+    padding-left:100px;
+  }
+  .tahta {
+    width:170px;
+    min-height:100px;
+    background-color:#f89b9b;
+    position:fixed;
+    right:3px;
+    top:3px;
+    padding-left:6px;
+    padding-right:15px;
+    padding-bottom:10px;
+  }
+  
+  .tahta p{
+    
+    background-color:#f7f7f7;
+    text-align:center;
+    margin-left:10px;
+    padding-left:5px;
+    padding-right:5px;
+  }
+  
+  .soru{
+    border-style:solid;
+    border-color:#dbdbdb;
+    border-width:3px;
+    padding:10px;
+    margin:5px;
+    
+  }
+  

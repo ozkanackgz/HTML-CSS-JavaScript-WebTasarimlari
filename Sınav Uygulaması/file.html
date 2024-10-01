@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="tahta">
+    <h3 id="time">Süre:</h3>
+    <button onclick="intervalBaslat();">Başlat</button>
+    <button onclick="intervalDurdur();">Durdur</button>
+    <button onclick="invertalbitir();">Bitir</button>
+    <h3 id="point">Puan:</h3>
+    <p id="qp1">1</p>
+    <p id="qp2">2</p>
+    <p id="qp3">3</p>
+    <p id="qp4">4</p>
+    <p id="qp5">5</p>
+    <p id="qp6">6</p>
+    <p id="qp7">7</p>
+    <p id="qp8">8</p>
+    <p id="qp9">9</p>
+    <p id="qp10">10</p>
+  </div>
+ <div class="main">
+    <h3>DEĞERLENDİRME SORULARI</h3>
+    <div class="soru">
+<img src="soru1.png" width=200px, height=150px>
+      <p> 1. Yukarıdaki yapı kaç  adet birim küpten oluşmuştur?</p>
+      <input type="radio"name="q1" value="a" onclick="control(1,'a')">8<br>
+      <input type="radio"name="q1" value="b" onclick="control(1,'b')">6 <br>
+      <input type="radio"name="q1" value="c" onclick="control(1,'c')">9 <br>
+      <input type="radio"name="q1" value="d" onclick="control(1,'d')">7
+    </div>
+
+    
+    <div class="soru">
+      <img src="soru2.png" width=200px, height=150px>
+      <p> 2. Aşağıdakilerden hangisi yukarıdaki şeklin köşesi değildir?</p>
+      <input type="radio"name="q2" value="a" onclick="control(2,'a')">LM <br>
+      <input type="radio"name="q2" value="b" onclick="control(2,'b')">KN <br>
+      <input type="radio"name="q2" value="c" onclick="control(2,'c')">KL<br>
+      <input type="radio"name="q2" value="d" onclick="control(2,'d')">ML
+    </div>
+
+    
+    <div class="soru">
+      <p> 3. Aşağıdaki eşleştirmelerden hangisi doğru değildir?</p>
+      <input type="radio"name="q3" value="a" onclick="control(3,'a')">5200 mm = 520 cm <br>
+      <input type="radio"name="q3" value="b" onclick="control(3,'b')">1300 mm = 13 cm <br>
+      <input type="radio"name="q3" value="c" onclick="control(3,'c')">430 mm = 43 cm<br>
+      <input type="radio"name="q3" value="d" onclick="control(3,'d')">246 mm = 24,6 cm
+    </div>
+
+    
+    <div class="soru">
+      <p> 4. <b>3200 + 100 </b>yandaki işlemi zihinden yaparsak sonuç kaçtır ?</p>
+      <input type="radio"name="q4" value="a" onclick="control(4,'a')">3.600<br>
+      <input type="radio"name="q4" value="b" onclick="control(4,'b')">3.500 <br>
+      <input type="radio"name="q4" value="c" onclick="control(4,'c')">3.400<br>
+      <input type="radio"name="q4" value="d" onclick="control(4,'d')">3.300
+    </div>
+
+    
+    <div class="soru">
+      <p>5. 870 - 670 - ? - 270 <br>Yukarıdaki  ? yerine aşağıdaki sayılardan hangisi gelmelidir ?</p>
+      <input type="radio"name="q5" value="a" onclick="control(5,'a')">570<br>
+      <input type="radio"name="q5" value="b" onclick="control(5,'b')">370 <br>
+      <input type="radio"name="q5" value="c" onclick="control(5,'c')">470<br>
+      <input type="radio"name="q5" value="d" onclick="control(5,'d')">400
+    </div>
+
+    
+    <div class="soru">
+      <p> 6. Bir satıcı toptancıdan tanesi 40 TL olan tişörtlerden 32 tane almıştır. Buna göre satıcı kaç TL vermiştir </p>
+      <input type="radio"name="q6" value="a" onclick="control(6,'a')">1280<br>
+      <input type="radio"name="q6" value="b" onclick="control(6,'b')">1180 <br>
+      <input type="radio"name="q6" value="c" onclick="control(6,'c')">1100<br>
+      <input type="radio"name="q6" value="d" onclick="control(6,'d')">1150
+    </div>
+
+    
+    <div class="soru">
+      <p>7. 4560 : 15 = ? Bölme işleminin sonucu aşağıdakilerden hangisidir ?</p>
+      <input type="radio"name="q7" value="a" onclick="control(7,'a')">280<br>
+      <input type="radio"name="q7" value="b" onclick="control(7,'b')">296 <br>
+      <input type="radio"name="q7" value="c" onclick="control(7,'c')">304<br>
+      <input type="radio"name="q7" value="d" onclick="control(7,'d')">300
+    </div>
+
+    
+    <div class="soru">
+      <p>8. Bölme işlemi için aşağıdakilerden hangisi  <u>yanlıştır</u> ?</p>
+      <input type="radio"name="q8" value="a" onclick="control(8,'a')">Bölünen sayı her zaman en büyük terimdir.<br>
+      <input type="radio"name="q8" value="b" onclick="control(8,'b')">Kalansız bir bölmede bölünen sayı, bölen ile bölüm çarpılarak bulunur. <br>
+      <input type="radio"name="q8" value="c" onclick="control(8,'c')">Bölme işlemlerinin sağlaması çarpma işlemleridir.<br>
+      <input type="radio"name="q8" value="d" onclick="control(8,'d')">Bölme işleminde kalan bölen sayıdan büyük olabilir.
+  </div>
+   
+   <div class="soru">
+      <p>9. Soru:  <p>190</p> <p id="soruorn">xxx</p> + <hr>  = 295 / xxx yerine hangisi yazılmadılır?</p>
+      <input type="radio"name="q9" value="a" onclick="control(9,'a')">100<br>
+      <input type="radio"name="q9" value="b" onclick="control(9,'b')">250 <br>
+      <input type="radio"name="q9" value="c" onclick="control1(9,'c')">105<br>
+      <input type="radio"name="q9" value="d" onclick="control(9,'d')">340
+      
+    </div>
+   
+    <div class="soru">
+      <p>10. 2,857+8,377=?  İşleminin sonucu kaçtır?</p>
+      <input type="radio"name="q10" value="a" onclick="control(10,'a')">10,250<br>
+      <input type="radio"name="q10" value="b" onclick="control(10,'b')">11,373 <br>
+      <input type="radio"name="q10" value="c" onclick="control1(10,'c')">10,875<br>
+      <input type="radio"name="q10" value="d" onclick="control(10,'d')">11,234
+    
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+
+
+
+</body>
+
+
+  
+</html>
